@@ -1,6 +1,6 @@
 {
   "name": "@aave/contract-helpers",
-  "version": "0.27.3",
+  "version": "1.3.8",
   "license": "MIT",
   "description": "",
   "scripts": {
@@ -15,7 +15,8 @@
     "prepublishOnly": "yarn build"
   },
   "peerDependencies": {
-    "ethers": "~5.4.7"
+    "ethers": "5.x",
+    "reflect-metadata": "0.1.x"
   },
   "devDependencies": {
     "ethers": "5.4.7",
@@ -26,13 +27,13 @@
   "types": "./dist/esm/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/@aave/aave-utilities.git"
+    "url": "git+https://github.com/aave/aave-utilities.git"
   },
   "author": "",
   "bugs": {
-    "url": "https://github.com/@aave/aave-utilities/issues"
+    "url": "https://github.com/aave/aave-utilities/issues"
   },
-  "homepage": "https://github.com/@aave/aave-utilities#readme",
+  "homepage": "https://github.com/aave/aave-utilities#readme",
   "gitHead": "47a9a6d1f940185ab1e7f6c2bea61564b2abe47a",
   "publishConfig": {
     "access": "public"
